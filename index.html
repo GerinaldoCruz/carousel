@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Carrossel</title>
+
+   <link rel="stylesheet" href="./css/reset.css">
+   <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="vsc-initialized">
+   <div class="carousel">
+      <div data-js="carousel__item" class="carousel__item carousel__item--visible">
+         <img src="./images/crash.webp">
+      </div>
+
+      <div data-js="carousel__item" class="carousel__item">
+         <img src="./images/mario.webp">
+      </div>
+
+      <div data-js="carousel__item" class="carousel__item">
+         <img src="./images/matal-slug.jpg">
+      </div>
+
+      <div data-js="carousel__item" class="carousel__item">
+         <img src="./images/need-for-speed.jpg">
+      </div>
+
+      <div class="carousel-actions">
+         <button data-js="carousel__button--prev" aria-label="Slide anterior"> < </button>
+         <button data-js="carousel__button--next" aria-label="Próximo slide"> > </button>
+      </div>
+   </div>
+
+   <script src="app.js"></script>
+</body>
+</html>
