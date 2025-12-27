@@ -24,13 +24,8 @@ body::before {
 }
 
 .carousel {
-   margin: 0 auto;
+   margin: 0 2rem;
    position: relative;
-
-   @media (max-width: 820px) {
-      width: 100%;
-      margin: 2rem;
-   }
 }
 
 .carousel__item {
@@ -52,15 +47,11 @@ body::before {
 .carousel-actions {
    position: absolute;
    top: 50%;
-   transform: translateY(-50%);
-   left: 2rem;
+   left: 50%;
+   transform: translate(-50%, -50%);
    display: flex;
    justify-content: space-between;
    width: 95%;
-
-   @media (max-width: 480px) {
-      left: 1rem;
-   }
 }
 
 .carousel-actions button {
